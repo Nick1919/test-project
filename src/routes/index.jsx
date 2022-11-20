@@ -16,17 +16,18 @@ import { AdminDashboard } from "../pages/admin/dashboard";
 
 
 export const publicRoutes = [
-	{ path: "/forgot-password",  	component: <ForgotPassword/> },
-	{ path: "/", 							   	component: <Landing/>},
-	{ path: "/login",            	component: <Login/> },
-	{ path: "/blog",           		component: <Blog/> },
-	{ path: "/about", 						component: <About/>},
+	{ path: '/forgot-password',  	component: <ForgotPassword/> },
+	{ path: '/', 							   	component: <Landing/>},
+	{ path: '/login',            	component: <Login/> },
+	{ path: '/blog',           		component: <Blog/> },
+	{ path: '*', 									component: <NotFound/>},
+	{ path: '/about', 						component: <About/>},
 ]; 
 export const userRoutes = [
-	{ path: "/store", 						component: <Store/>},
-	{ path: "/dashboard", 				component: <Dashboard/>},
-	{ path: "/user", 							component: <User/>},
+	{ path: '/store', 						component: <Store/>},
+	{ path: '/dashboard', 				component: <Dashboard/>},
+	{ path: '/user', 							component: <User/>},
 ]; 
 export const adminRoutes = [
-	{ path: "/admin/dashboard", 	component: <AdminDashboard/>},
+	{ path: '/admin/dashboard', 	component: <AdminDashboard/>},
 ]; 

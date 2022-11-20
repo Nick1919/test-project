@@ -5,7 +5,7 @@ export const Landing = () => {
 		<section id="landing">
 			<Container>
 				<Row>
-					<Col xs={12} md={6}>
+					<Col xs={12}>
 						<h1>Landing</h1>
 					</Col>
 				</Row>

@@ -4,7 +4,7 @@ export const NotFound = () => {
 		<section id="not-found">
 			<Container>
 				<Row>
-					<Col xs={12} md={6}>
+					<Col xs={12}>
 						<h1>NotFound</h1>
 					</Col>
 				</Row>

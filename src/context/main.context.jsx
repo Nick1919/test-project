@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 export const MainContext = createContext(null);
 export const ContextProvider = ({children}) => {
 	const darkMode = false;  
-	const isLoged = false;
+	const isLoged = true;
 	const isAdmin = false;
 	const providerValues = useMemo(()=> ({
 		isLoged,

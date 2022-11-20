@@ -4,7 +4,7 @@ export const Dashboard = () => {
 		<section id="dashboard">
 			<Container>
 				<Row>
-					<Col xs={12} md={6}>
+					<Col xs={12}>
 						<h1>Dashboard</h1>
 					</Col>
 				</Row>

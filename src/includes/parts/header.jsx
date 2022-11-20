@@ -7,28 +7,28 @@ export const Header = ({loged, admin}) => {
 			<section id="header">
 				<Container>
 					<Row>
-						<Col xs={12} md={6}>
+						<Col xs={12} md={4} lg={3}>
 							<h1>Header</h1>
 						</Col>
-						<Col xs={12} md={6}>
-							<nav>
-								<ul className="d-flex justify-content-between">
-									<li> <Link to="/"			> 		Landing 		</Link> </li>
-									<li> <Link to="/blog"	>  		Blog    		</Link> </li>
-									<li> <Link to="/about"> 		about  			</Link> </li>
+						<Col className="d-flex align-items-center justify-content-end" xs={12} md={8} lg={9}>
+							<nav className="">
+								<ul className="d-flex">
+									<li className=""> <Link className="py-2 px-4 m-2" to="/"			> 		Landing 		</Link> </li>
+									<li className=""> <Link className="py-2 px-4 m-2" to="/blog"	>  		Blog    		</Link> </li>
+									<li className=""> <Link className="py-2 px-4 m-2" to="/about"> 			about  			</Link> </li>
 									{ loged ? 
 										<>
-											<li> <Link to="/store"> 		store     	</Link> </li>
-											<li> <Link to="/dashboard">	Dasboard  	</Link> </li>
+											<li className=""> <Link className="py-2 px-4 m-2" to="/store"> 		store     	</Link> </li>
+											<li className=""> <Link className="py-2 px-4 m-2" to="/dashboard">	Dasboard  	</Link> </li>
 										</>
 									: 
 										<>
-											<li> <Link to="/login">   	Login   		</Link> </li>
+											<li className=""> <Link className="py-2 px-4 m-2" to="/login">   	Login   		</Link> </li>
 										</> 
 									}
 									{ admin ? 
 										<>
-											<li> <Link to="/admin/dashboard"> admin </Link> </li> 
+											<li className=""> <Link className="py-2 px-4 m-2" to="/admin/dashboard"> admin </Link> </li> 
 										</>
 									: <></>}
 								</ul>

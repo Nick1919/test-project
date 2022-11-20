@@ -4,7 +4,7 @@ export const Login = () => {
 		<section id="login">
 			<Container>
 				<Row>
-					<Col xs={12} md={6}>
+					<Col xs={12}>
 						<h1>Login</h1>
 					</Col>
 				</Row>

@@ -4,7 +4,7 @@ export const About = () => {
 		<section id="about">
 			<Container>
 				<Row>
-					<Col xs={12} md={6}>
+					<Col xs={12}>
 						<h1>About</h1>
 					</Col>
 				</Row>
