@@ -1,5 +1,6 @@
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
+import "./header.scss";
 
 export const Header = ({loged, admin}) => {
 	return (
@@ -8,7 +9,7 @@ export const Header = ({loged, admin}) => {
 				<Container>
 					<Row>
 						<Col xs={12} md={4} lg={3}>
-							<h1>Header</h1>
+							<h1 className="logo-container">Logo</h1>
 						</Col>
 						<Col className="d-flex align-items-center justify-content-end" xs={12} md={8} lg={9}>
 							<nav className="">

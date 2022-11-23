@@ -1,14 +1,13 @@
 import { Container, Row, Col } from "reactstrap";
-import { Banner } from "../components/banner/banner";
+import "./banner.scss";
 
-export const Landing = () => {
+export const Banner = () => {
 	return (
-		<section id="landing">
-			<Banner/>
+		<section id="banner">
 			<Container>
 				<Row>
 					<Col xs={12}>
-						<h1>Landing</h1>
+						<h1>Banner</h1>
 					</Col>
 				</Row>
 			</Container>

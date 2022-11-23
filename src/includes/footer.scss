@@ -1,0 +1,17 @@
+#footer {
+	box-shadow: 0px -10px 5px 0px rgba(0,0,0,0.05);
+	padding: 1.8rem 0;
+	margin-top: 2rem;
+
+	.page-redirections {
+		text-align: center;
+		.list-title {
+			margin: 1rem 0;
+		}
+		.list-container {
+			.list-item {
+				margin: .5rem 0;
+			}
+		}
+	}
+}

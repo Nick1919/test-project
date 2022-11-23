@@ -1,13 +1,15 @@
-nav {
-	ul {
-		padding: 0;
-		margin-bottom: 0;
-		li {
-			list-style: none;
-			a {
-				color: inherit;	
-				text-decoration: none;
-			}
+ul {
+	padding: 0;
+	margin-bottom: 0;
+	li {
+		list-style: none;
+		a {
+			color: inherit;	
+			text-decoration: none;
 		}
 	}
+}
+
+.logo-container {
+	margin: 0;
 }

@@ -1,6 +1,6 @@
 import { MainContext } from "../../context/main.context"
-import { Header } from "../parts/header";
-import { Footer } from "../parts/footer";
+import { Header } from "../header";
+import { Footer } from "../footer";
 import { useContext } from "react";
 
 export const AuthLayout = ({children}) => {
