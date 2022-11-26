@@ -12,24 +12,24 @@ export const Header = ({loged, admin}) => {
 							<h1 className="logo-container">Logo</h1>
 						</Col>
 						<Col className="d-flex align-items-center justify-content-end" xs={12} md={8} lg={9}>
-							<nav className="">
-								<ul className="d-flex">
-									<li className=""> <Link className="py-2 px-4 m-2" to="/"			> 		Landing 		</Link> </li>
-									<li className=""> <Link className="py-2 px-4 m-2" to="/blog"	>  		Blog    		</Link> </li>
-									<li className=""> <Link className="py-2 px-4 m-2" to="/about"> 			about  			</Link> </li>
+							<nav className="non-styled-nav">
+								<ul className="d-flex header-nav-links-container">
+									<li className=""> <Link className="nav-link" to="/"			> 		Landing 		</Link> </li>
+									<li className=""> <Link className="nav-link" to="/blog"	>  		Blog    		</Link> </li>
+									<li className=""> <Link className="nav-link" to="/about"> 			about  			</Link> </li>
 									{ loged ? 
 										<>
-											<li className=""> <Link className="py-2 px-4 m-2" to="/store"> 		store     	</Link> </li>
-											<li className=""> <Link className="py-2 px-4 m-2" to="/dashboard">	Dasboard  	</Link> </li>
+											<li className=""> <Link className="nav-link" to="/store"> 		store     	</Link> </li>
+											<li className=""> <Link className="nav-link" to="/dashboard">	Dasboard  	</Link> </li>
 										</>
 									: 
 										<>
-											<li className=""> <Link className="py-2 px-4 m-2" to="/login">   	Login   		</Link> </li>
+											<li className=""> <Link className="nav-link primary" to="/login">   	Login   		</Link> </li>
 										</> 
 									}
 									{ admin ? 
 										<>
-											<li className=""> <Link className="py-2 px-4 m-2" to="/admin/dashboard"> admin </Link> </li> 
+											<li className=""> <Link className="nav-link primary outline" to="/admin/dashboard"> admin </Link> </li> 
 										</>
 									: <></>}
 								</ul>

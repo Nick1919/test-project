@@ -14,49 +14,55 @@ export const Footer = () => {
 						<Col xs={12} md={6} lg={3}>
 							<div className="page-redirections">
 								<h4 className="list-title">Lorem, ipsum.</h4>
-								<ul className="list-container">
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-								</ul>
+								<nav className="non-styled-nav">
+									<ul className="list-container">
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+									</ul>
+								</nav>
 							</div>
 						</Col>
 						<Col xs={12} md={6} lg={3}>
 							<div className="page-redirections">
 								<h4 className="list-title">Lorem, ipsum.</h4>
-								<ul className="list-container">
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-								</ul>
+								<nav className="non-styled-nav">
+									<ul className="list-container">
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+									</ul>
+								</nav>
 							</div>
 						</Col>
 						<Col xs={12} md={6} lg={3}>
 							<div className="page-redirections">
 								<h4 className="list-title">Lorem, ipsum.</h4>
-								<ul className="list-container">
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-									<li className="list-item">
-										<Link to="#">Lorem, ipsum dolor.</Link>
-									</li>
-								</ul>
+								<nav className="non-styled-nav">
+									<ul className="list-container">
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+										<li className="list-item">
+											<Link to="#">Lorem, ipsum dolor.</Link>
+										</li>
+									</ul>
+								</nav>
 							</div>
 						</Col>
 					</Row>

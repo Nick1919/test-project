@@ -1,10 +1,10 @@
 import { Container, Row, Col } from "reactstrap";
-import { Banner } from "../components/banner/banner";
+import { HeroBanner } from "../components/hero-banner/hero-banner";
 
 export const Landing = () => {
 	return (
 		<section id="landing">
-			<Banner/>
+			<HeroBanner/>
 			<Container>
 				<Row>
 					<Col xs={12}>
