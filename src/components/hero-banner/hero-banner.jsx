@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import "./hero-banner.scss";
 
 export const HeroBanner = () => {
 	return (
@@ -8,7 +7,7 @@ export const HeroBanner = () => {
 			<Container>
 				<Row>
 					<Col xs={12}>
-						<h1 className="banner-title">Lorem ipsum dolor sit amet <br/> Amet consectetur.</h1>
+						<h1 className="banner title">Lorem ipsum dolor sit amet <br/> Amet consectetur.</h1>
 						<span className="banner-subtitle">Lorem ipsum dolor sit amet consectetur.</span>
 					</Col>
 					<Col xs={12}>

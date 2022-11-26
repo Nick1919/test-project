@@ -1,6 +1,5 @@
 import { Container, Row, Col } from "reactstrap";
 import { Link } from "react-router-dom";
-import "./footer.scss";
 
 export const Footer = () => {
 	return (
