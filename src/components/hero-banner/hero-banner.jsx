@@ -1,4 +1,4 @@
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col, Button } from "reactstrap";
 import { Link } from "react-router-dom";
 
 export const HeroBanner = () => {
@@ -13,14 +13,14 @@ export const HeroBanner = () => {
 					<Col xs={12}>
 						<div className="button-container">
 							<Link to="/about" className="">
-								<button type="button" className="primary">
+								<Button type="button" color="primary" outline={true}>
 									Learn more
-								</button>
+								</Button>
 							</Link>
 							<Link to="/login" className="">
-								<button type="button" className="primary outline">
+								<Button type="button" color="primary" className="">
 									Get started
-								</button>
+								</Button>
 							</Link>
 						</div>
 					</Col>

@@ -13,22 +13,22 @@ export const Header = ({loged, admin}) => {
 						<Col className="d-flex align-items-center justify-content-end" xs={12} md={8} lg={9}>
 							<nav className="non-styled-nav">
 								<ul className="d-flex header-nav-links-container">
-									<li className=""> <Link className="nav-link" to="/"			> 		Landing 		</Link> </li>
-									<li className=""> <Link className="nav-link" to="/blog"	>  		Blog    		</Link> </li>
-									<li className=""> <Link className="nav-link" to="/about"> 			about  			</Link> </li>
 									{ loged ? 
 										<>
-											<li className=""> <Link className="nav-link" to="/store"> 		store     	</Link> </li>
 											<li className=""> <Link className="nav-link" to="/dashboard">	Dasboard  	</Link> </li>
+											<li className=""> <Link className="nav-link" to="/store"> 		store     	</Link> </li>
 										</>
 									: 
 										<>
-											<li className=""> <Link className="nav-link primary" to="/login">   	Login   		</Link> </li>
+											<li className=""> <Link className="nav-link" to="/login">   	Login   		</Link> </li>
+											<li className=""> <Link className="nav-link" to="/"			> 		Landing 		</Link> </li>
 										</> 
 									}
+									<li className=""> <Link className="nav-link" to="/blog"	>  		Blog    		</Link> </li>
+									<li className=""> <Link className="nav-link" to="/about"> 			about  			</Link> </li>
 									{ admin ? 
 										<>
-											<li className=""> <Link className="nav-link primary outline" to="/admin/dashboard"> admin </Link> </li> 
+											<li className=""> <Link className="nav-link" to="/admin/dashboard"> admin </Link> </li> 
 										</>
 									: <></>}
 								</ul>

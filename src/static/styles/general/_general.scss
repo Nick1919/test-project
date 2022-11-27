@@ -18,19 +18,6 @@ nav.non-styled-nav {
 	flex-wrap: wrap;
 	display: flex;
 	gap: 25px;
-	button {
-		padding: 15px 25px;
-		border-radius: 25px;
-		border: 2.5px solid transparent;
-		&.primary {
-			background-color: $soft_primary;
-			color: $base_white;
-			&.outline {
-				border-color: $soft_primary;
-				background-color: transparent;
-			}
-		}
-	}
 }
 
 .logo-container {
